@@ -38,8 +38,7 @@ print(d)
 ```
 
 ### OUTPUT:
-![Uploading Screenshot from 2023-01-28 15-38-40.png…]()
-
+![Screenshot from 2023-01-28 15-38-40](https://github.com/Pravinrajj/command-line-arguments-to-count-word/assets/117917674/7fb0295f-c66b-4f7d-ba6e-c0404b2319c8)
 
 ## RESULT:
 Thus the program is written to find the word count from the contents of a file using command line arguments.
