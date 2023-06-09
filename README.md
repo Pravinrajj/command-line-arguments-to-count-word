@@ -6,21 +6,39 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
+import sys
 
-### Step 2: 
- 
-### Step 3: 
+### Step 2:
+initially make count = 0
 
-### Step 4:  
+### Step 3:
+open the content file using command line arguments.
 
-### Step 5: 
+### Step 4:
+by using for loop name the function as "line"
 
-### Step 6: 
+### Step 5:
+split the line using .split
+
+### Step 6:
+split the line using .split
 
 ## PROGRAM:
+```
+import sys
+fp=open(sys.argv[1],"r")
+d={}
+for i in fp:
+    for w in i.split():
+        if w not in d.keys(): 
+            d[w]=1
+        else:
+            d[w]+=1
+print(d)
+```
 
 ### OUTPUT:
-
+![Uploading Screenshot from 2023-01-28 15-38-40.png…]()
 
 
 ## RESULT:
